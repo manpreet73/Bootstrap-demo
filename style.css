@@ -1,0 +1,284 @@
+#nav {
+    background-color: rgb(218, 172, 0);
+}
+
+#logo {
+    padding: 0 5%;
+}
+
+#navbarSupportedContent ul li a {
+    font-size: 19px;
+    padding: 0 2rem;
+}
+
+#search-bar {
+    background-color: rgb(252, 195, 1);
+    border-radius: 0;
+    border: none;
+    box-shadow: 5px 5px 5px #a58a3973;
+}
+
+#search-bar::placeholder {
+    color: white;
+}
+
+#search {
+    background-color: rgb(0, 190, 201);
+    color: white;
+    position: relative;
+    left: -47px;
+    border-radius: 0;
+}
+
+@media only screen and (max-width:991px) {
+    #logo {
+        padding: 0 2%;
+    }
+    #search-bar{
+        margin-left: 2rem;
+        width: 45%;
+    }
+}
+
+#banner{
+    background-color: rgb(252, 195, 1);
+    padding-bottom: 2.3rem;
+    padding-top: 1.2rem;
+}
+
+#banner-text h1{
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 8rem;
+    font-weight: 600;
+}
+
+#banner-text p{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+#btn1{
+    color: white;
+    background-color: rgb(0, 190, 201);
+    border: 3px solid rgb(0, 190, 201);
+    font-weight: 600;
+    padding: 10px 22px;
+}
+
+#btn2{
+    font-weight: 600;
+    padding: 10px 22px;
+    color: white;
+    border: 3px solid white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:1164px){
+    #banner-text h1{
+        font-size: 3.2rem;
+        margin-top: 5rem;
+    }
+    #banner-text p{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width:992px){
+    #banner-text h1{
+        font-size: 2.8rem;
+        margin-top: 4rem;
+    }
+    #banner-text p{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:870px){
+    #banner-text h1{
+        margin-top: 3rem;
+    }
+    #banner-text p{
+        font-size: 1rem;
+    }
+    #btn1{
+        border: 2px solid rgb(0, 190, 201);
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+    #btn2{
+        font-weight: 500;
+        padding: 5px 10px;
+        border: 2px solid white;
+    }
+}
+
+#section1 h1{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+#section1 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#section1 button{
+    background-color: rgb(252, 195, 1);
+    font-weight: 600;
+    padding: 10px 22px;
+    color: white;
+}
+
+#main{
+    background-color: rgb(252, 195, 1);
+}
+
+#post{
+    color: white;
+    padding: 3rem;
+}
+
+#post h1{
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+#post p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.caption{
+    color: white;
+}
+
+@media only screen and (max-width:420px){
+    .caption{
+        font-size: 1rem;
+    }
+}
+
+.icons{
+    margin-bottom: 2rem;
+}
+
+.icons i{
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    background-color: rgb(252, 195, 1);
+    color: white;
+}
+
+@media only screen and (max-width:551px){
+    .icons i{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+        margin: 0.1rem;
+    }
+    .para{
+        font-size: 0.9rem;
+    }
+    .heading{
+        font-size: large;
+    }
+}
+
+#symbol{
+    margin-top: 3rem;
+    padding-top: 6rem;
+    background-color: rgb(252, 195, 1);
+    text-align: center;
+}
+
+.symbols{
+    margin: 4rem 0;
+    font-size: 4.5rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.symbol-h3{
+    margin: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+}
+
+.links p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links h3{
+    font-weight: 700;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.footer-search{
+    text-align: right;
+}
+
+.footer-search h3{
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#footer-search-box{
+    margin: 1.5rem 0;
+    background-color: rgb(252, 195, 1);
+    border: none;
+    height: 2.5rem;
+    width: 16rem;
+    position: relative;
+    left: 5px;
+}
+
+#footer-search-btn{
+    background-color: rgb(0, 190, 201);
+    border: none;
+    height: 2.5rem;
+    width: 3.2rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-icons{
+    margin-top: 1.5rem;
+}
+
+.footer-icons i{
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:1024px){
+    #footer-search-box{
+        width: 10rem;
+    }
+    #footer-search-btn{
+        width: 2.8rem;
+    }
+}
